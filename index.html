@@ -26,10 +26,10 @@
       liff.init({liffId: "1657202661-pVvPklVK"}, function(){
         liff.ready.then(() =>{
           if(liff.isLoggedIn()){
-             var dd = getParameterByName("ZKA")
+             var dd = getParameterByName("ZK")
             
     
-    if(dd === "Promo"){
+    if(dd === "Pro"){
       var ee = getParameterByName("flex")
       var aa = [
          {
@@ -421,6 +421,7 @@
        function shareflexend(share){
         liff.shareTargetPicker(share).then(function(){
          liff.closeWindow()
+      
         
         })
       }
